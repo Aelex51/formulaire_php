@@ -7,13 +7,6 @@ $number = $_POST['phone'];
 $message = $_POST['message'];
 
 
-/*if(isset($_POST['submit'])){*/
-    $getSujet = $_POST['sujets'];
-    echo 'merci de ' .  $getSujet;
-/*};*/
-
-
-echo $getSujet;
 echo '<h3>Informations récupérées en utilisant POST</h3>';
 echo 'Merci'." ". $prenom ." ". $nom . " ". 'de nous avoir contacté à propos de votre'." ". $getSujet . '<br />';
 
